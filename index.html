@@ -5,6 +5,7 @@
 	<script>
 		// TODO: create a handler
     window.addEventListener("load", function(){
+		
         // TODO: register the handler
     });
 	</script>
@@ -13,7 +14,13 @@
 <body>
 
 	<form id="searchForm">
-    <!-- TODO: add form elements -->
+		<input type="text" name="q"/>
+		<label>google</label><input type="radio" name="engine" value="google"/></label>
+		<label>duckDuckGo<input type="radio" name="engine" value="duckDuckGo"/></label>
+		<label>bing<input type="radio" name="engine" value="bing"/></label>
+		<label>ask<input type="radio" name="engine" value="ask"/></label>
+		<input type="submit"/>
+		<button>Go!</button>
 	</form>
 
 </body>
